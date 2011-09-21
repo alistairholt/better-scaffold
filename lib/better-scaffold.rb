@@ -1,0 +1,1 @@
+require "better-scaffold/version"
