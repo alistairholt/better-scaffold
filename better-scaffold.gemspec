@@ -11,8 +11,6 @@ Gem::Specification.new do |s|
   s.description = "Overrides Rails' scaffold and scaffold_controller generators to generate cleaner controllers. 1) Generates controllers without comment blocks before every action 2) Doesn't use #respond_to blocks be default. Pass --respond-to option if you want them"
 
   s.files         = `git ls-files`.split("\n")
-  s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
-  s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
 
   s.add_runtime_dependency "rails"
